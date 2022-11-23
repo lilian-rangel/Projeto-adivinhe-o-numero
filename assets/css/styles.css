@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    margin: 0 auto;
+    place-items: center;
+    font-size: 1.5rem;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+}
+
+h1 {
+    color: #0c4d73;
+    font-size: 3rem;
+}
+
+.container {
+    min-height: 50vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding: 4rem 0;
+
+}
+
+.form input[type="number"] {
+    width: 200px;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
