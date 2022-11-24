@@ -41,9 +41,22 @@ p, p.palpites {
     width: 200px;
 }
 
-.lastResult {
+.ultimoResultado {
     color: white;
     padding: 3px;
+}
+
+
+input.envioPalpite {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(110, 17, 93);
+    color:aliceblue;
+    font-weight: bold;
+    border: none;
+}
+input.envioPalpite:hover {
+    transform: scale(1.1);
 }
 
 button {
@@ -54,8 +67,10 @@ button {
     color:aliceblue;
     font-size: 1.2rem;
     font-weight: bold;
+    border: none;
 }
 
 button:hover {
     transform: scale(1.3);
 }
+
